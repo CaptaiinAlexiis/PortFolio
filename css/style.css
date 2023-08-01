@@ -2,7 +2,7 @@ body
 {
     padding: 0;
     margin: 0;
-  font-family: "Helvetica";
+ /* font-family: "Helvetica";*/
 }
 
 header
@@ -10,11 +10,11 @@ header
   height: 100vh;
 }
 
-@font-face 
+/*@font-face 
 {
   font-family: 'Helvetica';
   src: url('../font/Helvetica.ttf') format('ttf'), 
-}
+}*/
 
 .navbar 
 {
@@ -67,7 +67,7 @@ canvas
 {
   position: relative;
   font-weight: 900;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color:white;
   text-align: center;
   top:40%;
@@ -77,9 +77,6 @@ canvas
 {
   position: relative;
   display: inline-block;
-  padding-top: 0.3em;
-  padding-right: 1em;
-  /*padding-bottom: 0.1em;*/
   overflow: hidden;
 }
   
@@ -226,7 +223,7 @@ i
 {
   .ml6
   {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .dispo
   {
