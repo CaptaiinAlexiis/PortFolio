@@ -1,8 +1,8 @@
 body
 {
-    padding: 0;
-    margin: 0;
- /* font-family: "Helvetica";*/
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica";
 }
 
 header
@@ -10,11 +10,11 @@ header
   height: 100vh;
 }
 
-/*@font-face 
+@font-face 
 {
   font-family: 'Helvetica';
   src: url('../font/Helvetica.ttf') format('ttf'), 
-}*/
+}
 
 .navbar 
 {
@@ -57,7 +57,7 @@ canvas
   position: relative;
   text-decoration: none;
   top:40%;
-  left: 15%;
+  left: 30%;
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -228,7 +228,7 @@ i
   }
   .dispo
   {
-    left: 33%;
+    left: 40%;
   }
 }
 
@@ -236,11 +236,11 @@ i
 {
   .ml6
   {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .dispo
   {
-    left: 43%;
+    left: 46%;
   }
 }
