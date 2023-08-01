@@ -1,0 +1,266 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+main
+{
+  margin-top:44rem;
+}
+
+.navbar 
+{
+  transition: background-color 0.3s ease;
+}
+
+.collant.navbar 
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f8f9fa; /* Couleur de fond lorsque le navbar devient collant */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li>a, .logo
+{
+  text-transform: uppercase;
+}
+/*---------- HEADER ----------*/
+.background
+{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+   /* margin: -15px 0; /* Ajustez cette marge négative selon vos besoins */
+    z-index: -1; /* Ajoutez une valeur de z-index pour positionner l'élément en arrière-plan */
+}
+canvas
+{
+  position:absolute;
+  text-anchor: middle;
+  text-align: center;
+}
+.dispo
+{
+  position: relative;
+  text-decoration: none;
+  width: 15%;
+  top:15.625rem;
+  left: 42%;
+}
+/*Animation Text*/
+.ml6 
+{
+  position: relative;
+  font-weight: 900;
+  font-size: 3rem;
+  color:white;
+  text-align: center;
+  top:15.625rem;
+}
+  
+.ml6 .text-wrapper 
+{
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  /*padding-bottom: 0.1em;*/
+  overflow: hidden;
+}
+  
+.ml6 .letter 
+{
+  display: inline-block;
+  line-height: 1em;
+}
+
+/*---------- ABOUT ----------*/
+
+h1
+{
+  text-align: center;
+  font-style: bold;
+
+  margin-bottom: 4rem;
+}
+.text 
+{
+  text-align: center;
+}
+
+#about
+{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #f5f5f5;
+}
+
+/*---------- SKILLS ----------*/
+#skills
+{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+i
+{
+  padding: 2rem;
+}
+
+.html
+{
+  color: #FF5722;
+}
+
+.css
+{
+  color:#1775BB;
+}
+
+.js
+{
+  color:#F0DC4E;
+}
+
+.php
+{
+  color:#787CB4;
+}
+
+.bootstrap
+{
+  color:#573E7E;
+}
+
+.angular
+{
+  color:#C4002B;
+}
+
+.symfony
+{
+  color:#211E22;
+}
+
+.col
+{
+  margin-bottom: 3rem;
+}
+
+/*---------- PROJECT ----------*/
+
+#project
+{
+  background-color: #f5f5f5;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.allCard
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*---------- CONTACT ----------*/
+
+#contact
+{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.address
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.address > div
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.icons
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#contact > h4
+{
+  text-align: center;
+}
+
+/*---------- COPYRIGHT ----------*/
+
+#copyright
+{
+  text-align: center;
+  background-color: black;
+  color:white;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+/*---------- RESPONSIVE ----------*/
+
+@media screen and (max-width: 768px)
+{
+  .ml6
+  {
+    font-size: 1rem;
+    top:20rem;
+  }
+  
+  .dispo
+  {
+    top: 20rem;
+    width: 80%;
+    left: 3rem;
+  }
+
+  main
+  {
+    margin-top: 47rem;
+  }
+
+  .text
+  {
+    text-align: start;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) 
+{
+  .ml6
+  {
+    font-size: 1rem;
+    top:25rem;
+  }
+  
+  .dispo
+  {
+    top: 25rem;
+    width: 50%;
+    left: 12.5rem;
+  }
+
+  main
+  {
+    margin-top: 47rem;
+  }
+
+  .text
+  {
+    text-align: start;
+  }
+}
