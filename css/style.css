@@ -1,19 +1,19 @@
 body
 {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
   font-family: "Helvetica";
+}
+
+header
+{
+  height: 100vh;
 }
 
 @font-face 
 {
   font-family: 'Helvetica';
   src: url('../font/Helvetica.ttf') format('ttf'), 
-}
-
-main
-{
-  margin-top:44rem;
 }
 
 .navbar 
@@ -26,7 +26,7 @@ main
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #f8f9fa; /* Couleur de fond lorsque le navbar devient collant */
+  background-color: #f8f9fa; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -34,6 +34,7 @@ li>a, .logo
 {
   text-transform: uppercase;
 }
+
 /*---------- HEADER ----------*/
 .background
 {
@@ -41,40 +42,48 @@ li>a, .logo
     height: 100%;
     background-repeat: no-repeat;
     filter: blur(5px);
-   /* margin: -15px 0; /* Ajustez cette marge négative selon vos besoins */
-    z-index: -1; /* Ajoutez une valeur de z-index pour positionner l'élément en arrière-plan */
+    z-index: -1; 
 }
+
 canvas
 {
   position:absolute;
   text-anchor: middle;
   text-align: center;
 }
+
 .dispo
 {
   position: relative;
   text-decoration: none;
-  width: 15%;
-  top:15.625rem;
-  left: 42%;
+  width: 30%;
+  top:40%;
+  left: 35%;
 }
+
 /*Animation Text*/
+
 .ml6 
 {
   position: relative;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2rem;
   color:white;
   text-align: center;
-  top:15.625rem;
+  top:40%;
+}
+
+.text-wrapper 
+{
+  height: 6rem;
 }
   
 .ml6 .text-wrapper 
 {
   position: relative;
   display: inline-block;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
+  padding-top: 0.3em;
+  padding-right: 1em;
   /*padding-bottom: 0.1em;*/
   overflow: hidden;
 }
@@ -97,7 +106,7 @@ h1
 .text 
 {
   text-align: center;
-  font-size: 1.2rem;
+  
 }
 
 #about
@@ -216,59 +225,4 @@ i
   color:white;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-/*---------- RESPONSIVE ----------*/
-
-@media screen and (max-width: 768px)
-{
-  .ml6
-  {
-    font-size: 1rem;
-    top:20rem;
-  }
-  
-  .dispo
-  {
-    top: 20rem;
-    width: 80%;
-    left: 3rem;
-  }
-
-  main
-  {
-    margin-top: 47rem;
-  }
-
-  .text
-  {
-    text-align: start;
-  }
-
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) 
-{
-  .ml6
-  {
-    font-size: 1rem;
-    top:25rem;
-  }
-  
-  .dispo
-  {
-    top: 25rem;
-    width: 50%;
-    left: 12.5rem;
-  }
-
-  main
-  {
-    margin-top: 47rem;
-  }
-
-  .text
-  {
-    text-align: start;
-  }
 }
