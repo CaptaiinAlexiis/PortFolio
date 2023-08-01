@@ -56,9 +56,10 @@ canvas
 {
   position: relative;
   text-decoration: none;
-  width: 60%;
   top:40%;
-  left: 20%;
+  left: 15%;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /*Animation Text*/
@@ -227,7 +228,6 @@ i
   }
   .dispo
   {
-    width: 30%;
     left: 33%;
   }
 }
@@ -241,7 +241,6 @@ i
 
   .dispo
   {
-    width: 20%;
-    left: 40%;
+    left: 43%;
   }
 }
