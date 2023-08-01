@@ -56,9 +56,9 @@ canvas
 {
   position: relative;
   text-decoration: none;
-  width: 30%;
+  width: 60%;
   top:40%;
-  left: 35%;
+  left: 20%;
 }
 
 /*Animation Text*/
@@ -67,15 +67,10 @@ canvas
 {
   position: relative;
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 1rem;
   color:white;
   text-align: center;
   top:40%;
-}
-
-.text-wrapper 
-{
-  height: 6rem;
 }
   
 .ml6 .text-wrapper 
@@ -225,4 +220,31 @@ i
   color:white;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+  .ml6
+  {
+    font-size: 2rem;
+  }
+  .dispo
+  {
+    width: 30%;
+    left: 33%;
+  }
+}
+
+@media screen and (min-width:1024px)
+{
+  .ml6
+  {
+    font-size: 3rem;
+  }
+
+  .dispo
+  {
+    width: 20%;
+    left: 40%;
+  }
 }
