@@ -184,15 +184,25 @@ i
   text-align: center;
 }
 
+.address >div:last-child
+{
+  margin-left: 3rem;
+}
+
 .icons
 {
   display: flex;
   justify-content: space-evenly;
 }
 
-#contact > h4
+.container > h4
 {
   text-align: center;
+}
+
+.icons a
+{
+  text-decoration: none;
 }
 
 /*---------- COPYRIGHT ----------*/
