@@ -16,6 +16,12 @@ header
   src: url('../font/Helvetica.ttf') format('ttf'), 
 }
 
+
+section
+{
+  padding: 7rem 0;
+}
+
 .navbar 
 {
   transition: background-color 0.3s ease;
@@ -102,20 +108,12 @@ h1
   
 }
 
-#about
+#about, #projects
 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
   background-color: #f5f5f5;
 }
 
 /*---------- SKILLS ----------*/
-#skills
-{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 i
 {
   padding: 2rem;
@@ -163,13 +161,6 @@ i
 
 /*---------- PROJECT ----------*/
 
-#project
-{
-  background-color: #f5f5f5;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .allCard
 {
   display: flex;
@@ -179,11 +170,6 @@ i
 
 /*---------- CONTACT ----------*/
 
-#contact
-{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
 .address
 {
   display: flex;
