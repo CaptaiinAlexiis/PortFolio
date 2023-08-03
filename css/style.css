@@ -74,7 +74,7 @@ canvas
 {
   position: relative;
   font-weight: 900;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color:white;
   text-align: center;
   top:40%;
@@ -173,8 +173,7 @@ i
 .address
 {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .address > div
@@ -182,11 +181,6 @@ i
   display: flex;
   flex-direction: column;
   text-align: center;
-}
-
-.address >div:last-child
-{
-  margin-left: 3rem;
 }
 
 .icons
@@ -226,6 +220,17 @@ i
   {
     left: 40%;
   }
+
+  .address >div:last-child
+  {
+    margin-left: 3rem;
+  }
+
+  .address
+  {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
 @media screen and (min-width:1024px)
@@ -238,5 +243,16 @@ i
   .dispo
   {
     left: 46%;
+  }
+
+  .address >div:last-child
+  {
+    margin-left: 3rem;
+  }
+
+  .address
+  {
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
